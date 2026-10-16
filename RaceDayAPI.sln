@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceDayAPI", "RaceDayAPI.csproj", "{B2743418-FF0E-47F2-9F7A-BDFEE5E8E42B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		RaceDayDbContext.cs = RaceDayDbContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{6DEDD1D4-5139-4CEB-9F7A-DA32BFC8D31B}"
+	ProjectSection(SolutionItems) = preProject
+		AdminCreateUserRequest.cs = AdminCreateUserRequest.cs
+		Category.cs = Category.cs
+		Event.cs = Event.cs
+		Location.cs = Location.cs
+		LoginRequest.cs = LoginRequest.cs
+		RegisterUserRequest.cs = RegisterUserRequest.cs
+		Registration.cs = Registration.cs
+		Result.cs = Result.cs
+		User.cs = User.cs
+		UserResponse.cs = UserResponse.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2743418-FF0E-47F2-9F7A-BDFEE5E8E42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2743418-FF0E-47F2-9F7A-BDFEE5E8E42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2743418-FF0E-47F2-9F7A-BDFEE5E8E42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2743418-FF0E-47F2-9F7A-BDFEE5E8E42B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF3CCD7D-7108-4A94-AEB8-30FB6D4FC848}
+	EndGlobalSection
+EndGlobal
